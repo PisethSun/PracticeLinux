@@ -20,5 +20,38 @@
 
 - ls --help
 
+6. How would you find the manual page for the command ip?
 
+- man ip
 
+7. How can you move to the beginning of a line of text?
+- CTRL-A
+
+8. To recall a previous command in Bash, you can use _____.
+
+- ARROW UP
+
+9. The _____ shell is available on many platforms.
+
+- Bash
+
+10. In the statement df -h /home/alice/Documents, the characters -h represent _____.
+
+- an Option
+
+11. The _____ is where we use the command line interface.
+
+- shell 
+
+12. The following string will list all files in the /usr/bin directory. Which part of this string is the argument?
+ls -lh /usr/bin
+
+- /usr/bin
+
+13. Why isn't the statement /home/alice ls -l valid?
+
+- The command always needs to come first, so this should read ls -l /home/alice
+
+14. What will happen when you type part of a command, and then select Tab?
+
+- It will autocomplete based on the part of the command you typed.
