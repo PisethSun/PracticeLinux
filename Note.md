@@ -13,4 +13,15 @@ Result: Should list folders starting with Do...
 
 * clear command is to clear the terminal but not exit the program.
 
-* 
+
+- Absolute Path - start at the root of the file system
+- Example: /home/piseth
+-
+
+
+
+* Relative Paths :
+
+- Begin from the current working directory 
+- if the current working directory changes, what the path refers changes.
+- when u dont see / that mean you are at realtive path 
