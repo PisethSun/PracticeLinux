@@ -13,5 +13,4 @@ Result: Should list folders starting with Do...
 
 * clear command is to clear the terminal but not exit the program.
 
-* You can create many folder in one line. with space and concap it. 
-mkdir departments/customerservice/document departments/customerservice/award departments/customerservice/cases
+* 
