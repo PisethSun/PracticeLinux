@@ -1,0 +1,59 @@
+There are normal user and Super User:
+- Different is their previlegs 
+- normal user can create , delete , edit their own file 
+- Can not make chages on system configuration , they cant install software , or system file or other user files 
+
+* Super User :
+- can modify any file on the system 
+- can make system-wide changes 
+______________________________________________________
+- su stand for substitute users. 
+- Eg: Bob to Piseth account : su bob then his pw.
+
+______________________________________________________
+
+- sudo ls /root - to gain previleges
+- sudo -K - to give up  previleges
+- sudo -s - to log in to the root shell : # is indicated that you are in root file . to exit type exit.
+
+---------Permission Determine Access to Files ----------------
+
+rwxrwxrwx file1 
+
+The first section is indicated for User : rwx
+
+The second  section is indicated for Group: rwx 
+
+The third section is indicated for Other : rwx
+
+RWX:  Stand for Read Write and Execute 
+
+--------- Change  Files Permission ----------------
+
+chmod - change Permission mode string 
+
+Chown and chgrp - change the file's owner and group 
+
+Two method to represent Permission:
+
+**Octal Value Permission:**
+
+- Octal (755, 644 , 777 )
+Read = 4 
+Write = 2 
+Execute = 1 
+
+if User r w x that would be 7 , 4+2+1
+
+if Group r - X that would be 5 , 4+1
+
+if other r - - that would be 4 
+
+- Another way to write it is rwxr-xr-- same thing to 754
+
+
+**Octal Value Permission:**
+- Symblic (a=r , g+w,  o-x)
+
+<BR></BR>
+<a href="SFM.png"></a>
