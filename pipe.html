@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+- What is Pipe?
+- Pipes (|) take the output of one command and send it to another -
+
+e.g: echo "Hello" if press enter without pipes character then 
+will print Hello. 
+
+- But if you add  - echo "Hello" | wc , this will print 
+
+wc mean word count , 
+
+1 1 6 : 
+
+1 - one line of text 
+
+1 - word 
+
+6 - characters 
+
+
+--------------Head and Tail commands -------------------
+
+- head poems.txt : will display half of the whole parapgraph 
+
+- tail poems.txt : will display the other half of the whole paragraph 
+
+
+
+--------------Less commands -------------------
+- display text one page or screenful at a time and provides navigate controls
+
+-eg: cat poems.txt | less 
+
+
+--------------grep commands -------------------
+
+- search  files for matching patterns 
+- it can be explicit or specific 
+- can use regular expressions 
+- is case sensetive 
+e.g: grep "the" poems.tx -> this will find the word the in the poems.txt file 
+
+- if you want to see the output line then you add -n 
+
+grep -n "the" poems.tx 
+
+- if the word "the" has capital T then you can run this command for insensitive option:
+
+- grep -in "the" poems.tx 
+
+
+## if you want to not show the word "the" or "The "- you can use omit(leave out ) command vi
+
+- grep -vi "the" poems.tx - any line with The is not showing 
+
+
+## if you want to filter / find multiple letter use this commands 
+
+- grep -E "[hijk]" poems.tx - will display all the search letter in the array. 
+
+## if you want to search word that contain  6 charachrter long or more the you need to use this : 
+
+- grep -E "\w{6,}" poems.tx 
+
+</body>
+</html>

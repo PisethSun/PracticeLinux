@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    -------------awk command -------------
+
+    - often used to extract specific text from a file according to a rule 
+    - awk programs can be written at the commands line or stores in a file 
+
+    - e.g: awk '{print $2}' simple_data.txt - with this line will display only first colmun 
+
+
+    - e.g: awk '{print $2 "\t" $1 }' simple_data.txt - if you want to display more than one column . T is tab character 
+
+    - you can you pipes and sort : 
+
+    e.g: awk '{print $2}' simple_data.txt  | sort -n - this will short by numberic smaller to big # . 
+
+
+
+
+
+    -------------sed command -------------
+
+    - short for - stream editor 
+    - often used for modification text in a command pipeline or in place 
+    - 
+    e.g:  sed s/Orange/Red/ simple_data.txt - this command is substitute Orange to red in simple_data.txt 
+
+    ---------------sort command---------------------
+
+    - you can use sort to sort and find duplcate 
+
+    e.g : cat dupes.txt- to open the file 
+
+        sort -u dupes.txt = this command will remove duplicate and display result 
+
+        ---------------rev command---------------------
+
+        - print file in reverse 
+        ---------------tac command ---------------------
+        - concatenate or display file in reverse 
+
+        ---------------tr command--------------------- 
+        
+        - Translate or modifile indivisual characters according to parameters. 
+
+</body>
+</html>

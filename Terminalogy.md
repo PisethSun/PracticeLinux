@@ -9,3 +9,8 @@ What is df command?
 What is -h ? Human readable way
 
 -print size of the power of 1024 . 
+
+
+what is -u ? 
+- u is for unique
+
