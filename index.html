@@ -63,12 +63,60 @@ if other r - - that would be 4
 - Another way to write it is rwxr-xr-- same thing to 754
 
 
-**Octal Value Permission:**
+**Symblic Value Permission:**
 - Symblic (a=r , g+w,  o-x)
 
 <BR></BR>
 
 
 <img src="SFM.png" alt="">
+
+** Try Octal Value Permission:**
+
+
+test.sh currently with permission : -rwxr-xr-x
+
+I want to remove user permission excexute : so the command would be :
+
+chmod 644 test.sh - Octal way 
+chmod -x test.sh - Symblic way 
+
+
+--------- Command CAT ----------------
+
+
+- cat used to output the content of the file:
+
+
+--------- Nano CAT ----------------
+
+nano test.sh - enter text editor 
+
+sudo chown root test.sh - change file owner to test.sh
+
+
+--------- Links File ----------------
+- Links are files that reference other files 
+- used to avoid having duplicate file 
+- AS link establishes a pointer in one place to a destination in other place.
+-
+
+--------- Two Type of Links ----------------
+
+- Symblic and Hard Links :
+
+
+
+- Symblic point to the file on the disk  (ln command)
+-Eg: ln -s poems.txt  (source file) (then the link I want to create ) writing.txt
+- lrwxrwxrwx - l is a link 
+
+- Hard Link point to specific data on the disk :
+
+- ln poems.txt words.txt
+
+- Think of a link with two door , which ever you door you want to use, you will able to do so.
+
+
 </body>
 </html>

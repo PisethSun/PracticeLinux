@@ -55,3 +55,17 @@ ls -lh /usr/bin
 14. What will happen when you type part of a command, and then select Tab?
 
 - It will autocomplete based on the part of the command you typed.
+
+15. Correct these commands and describe the errors in each :
+    cd ~/home/ubuntu
+    LS /home
+    mv ~/log.tar.gz home ubuntu
+    chmod ~/log.tar.gz
+
+    Answer: 
+
+    cd ~ : errror is /home/ubuntu 
+    ls should be lowercase l
+    mv ~/log.tar.gz . or /home/ubuntu , remove home ubuntu 
+    chmod need a group or optical representation. 
+    chmod 644 ~/log.tar.gz 
